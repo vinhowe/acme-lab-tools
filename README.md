@@ -15,11 +15,11 @@ All code in the Python script will be converted to cells in the notebook. Each c
 Convert a python script to a notebook:
 
 ```sh
-python3 -macme_tools.nbify --force standard_library.py
+python3 -macme_lab_tools.nbify --force standard_library.py
 ```
 
 Convert a notebook to a python script:
 
 ```sh
-python3 -macme_tools.pyify --force standard_library.ipynb
+python3 -macme_lab_tools.pyify --force standard_library.ipynb
 ```
