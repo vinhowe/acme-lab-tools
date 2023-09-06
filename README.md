@@ -1,13 +1,21 @@
 # acme lab tools
 
-To convert a python script to a notebook:
+## Installation
 
-```bash
+```sh
+pip install --upgrade git+https://github.com/vinhowe/acme-lab-tools
+```
+
+## Usage
+
+Convert a python script to a notebook:
+
+```sh
 python3 -macme_tools.pyify --force standard_library.py
 ```
 
-To convert a notebook to a python script:
+Convert a notebook to a python script:
 
-```bash
+```sh
 python3 -macme_tools.pyify --force standard_library.ipynb
 ```
