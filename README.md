@@ -10,7 +10,7 @@ pip install --upgrade git+https://github.com/vinhowe/acme-lab-tools
 
 ## Usage
 
-All code in the Python script will be converted to cells in the notebook. Each cell will start with `# acme-include`. Any cells not marked with `# acme-include` will be ignored when converting back to a Python script. This makes it easy to write test code inline with your assignment code without having to remove it from the submitted Python script.
+All code in the Python script will be converted to cells in the notebook. Each cell will start with `# acme-include`. Any cells not marked with `# acme-include` will be ignored when converting back to a Python script. This makes it easy to write test code inline with your assignment code without having to remove it from the code you submit.
 
 Convert a python script to a notebook:
 
